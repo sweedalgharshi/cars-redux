@@ -4,7 +4,14 @@ import CarList from "./component/CarList";
 import CarValue from "./component/CarValue";
 
 function App() {
-  return <div>App</div>;
+  return (
+    <div>
+      <CarForm />
+      <CarSearch />
+      <CarList />
+      <CarValue />
+    </div>
+  );
 }
 
 export default App;
