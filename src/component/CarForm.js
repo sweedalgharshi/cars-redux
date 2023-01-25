@@ -28,7 +28,6 @@ function CarForm() {
       name,
       cost,
     });
-    console.log(action);
     dispatch(action);
   };
 
